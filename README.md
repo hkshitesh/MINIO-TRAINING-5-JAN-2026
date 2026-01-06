@@ -1,3 +1,3 @@
-## Day-1 Feedback
+## Q&A Sheet Link
 
-https://forms.gle/Xo2oqV4neaNySQo68
+https://docs.google.com/spreadsheets/d/1mUKD6ViId2d-Qv4WHPwvE4lapMUNu6ssxM8klwSSduY/edit?usp=sharing
