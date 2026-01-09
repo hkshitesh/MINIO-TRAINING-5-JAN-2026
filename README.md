@@ -10,11 +10,12 @@ https://docs.google.com/spreadsheets/d/1mUKD6ViId2d-Qv4WHPwvE4lapMUNu6ssxM8klwSS
 
 ## Resource Quota Commands
 
-    mc quota set local/test --size 1GiB
+    **mc quota set local/test --size 1GiB**
+    
     Output: Successfully set bucket quota of 1.0 TiB on `test
 
 
-    mc quota info local/test
+    **mc quota info local/test**
     
     Output: Bucket `test` has hard quota of 1.0 iB
 
