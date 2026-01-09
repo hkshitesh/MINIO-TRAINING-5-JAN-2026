@@ -9,8 +9,6 @@ https://docs.google.com/spreadsheets/d/1mUKD6ViId2d-Qv4WHPwvE4lapMUNu6ssxM8klwSS
     mc replicate rm --all --force myminio/mybucket --id rule123
 
 
-## DAY-4 Feedback Survey
 
-https://forms.gle/9t1mnmw6cSDHPFuZA
 
 
