@@ -1,0 +1,11 @@
+groups:
+- name: MinIO
+  rules:
+  - alert: MinIODown
+    expr: up{job="minio-job"} == 0
+    for: 1m
+    labels:
+      severity: critical
+    annotations:
+      summary: "MinIO service is DOWN"
+      description: "Prometheus cannot scrape MinIO metrics. MinIO may be stopped or unreachable."
