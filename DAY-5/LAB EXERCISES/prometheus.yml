@@ -1,0 +1,18 @@
+scrape_configs:
+  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+  - job_name: "prometheus"
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+
+    static_configs:
+      - targets: ["localhost:9090"]
+       # The label name is added as a label `label_name=<label_value>` to any timeseries scraped from this config.
+        labels:
+          app: "prometheus"
+  - job_name: "minio-job"
+    bearer_token: "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwcm9tZXRoZXVzIiwic3ViIjoibWluaW9hZG1pbiIsImV4cCI6NDkyMTU1NDAzNn0.u3oTuAb9Ca_zNGsdsLzRBNt03H3VcQoBBI3833kU7dqjSlIUg1yI6yMBtP-w9TVibBMwxxLPbN-vIr9Zdo4mUQ"
+    metrics_path: "/minio/v2/metrics/cluster"
+    scheme: "http"
+    static_configs:
+      - targets: ["172.31.12.136:9000"]
