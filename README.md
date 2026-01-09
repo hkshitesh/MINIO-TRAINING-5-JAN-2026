@@ -23,7 +23,7 @@ https://docs.google.com/spreadsheets/d/1mUKD6ViId2d-Qv4WHPwvE4lapMUNu6ssxM8klwSS
 
 https://forms.office.com/r/ws4v5jfjt0
 
-## FINAL FEEDBACk
+## FINAL FEEDBACK
 
 https://forms.gle/EPRMrxtJznKYaPjM9
 
